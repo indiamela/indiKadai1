@@ -137,6 +137,7 @@
 				F260DAB727446DC600BB6E2F /* Sources */,
 				F260DAB827446DC600BB6E2F /* Frameworks */,
 				F260DAB927446DC600BB6E2F /* Resources */,
+				F260DAEE274470E300BB6E2F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -252,6 +253,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F260DAEE274470E300BB6E2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F260DAB727446DC600BB6E2F /* Sources */ = {
