@@ -26,15 +26,16 @@ final class ViewController: UIViewController {
     }
     
     private func totalCalculate() -> Int {
-        let inputArray: [UITextField] = [
+        let textFields: [UITextField] = [
             firstTextField,
             secondTextField,
             thirdTextField,
             fourthTextField,
             fifthTextField
         ]
-        return inputArray
-            .map({Int($0.text ?? "0") ?? 0})
-            .reduce(0,+)
+        return textFields
+            .compactMap { $0.text }
+            .compactMap { Int($0) }
+            .reduce(0, +)
     }
 }
